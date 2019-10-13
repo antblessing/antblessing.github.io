@@ -7,7 +7,7 @@
          window.dataLayer = window.dataLayer || [];
          function gtag(){dataLayer.push(arguments);}
          gtag('js', new Date());
-         
+
          gtag('config', 'UA-77462934-2');
       </script>
       <meta charset="utf-8">
@@ -63,7 +63,7 @@
                   <!-- Mask & flexbox options-->
                   <div class="mask rgba-black-light d-flex justify-content-center align-items-center" style="flex-direction: column;">
                      <!-- Content -->
-                     <div class="text-center white-text mx-5 wow fadeIn" style="margin-top: 250px; margin-bottom: 300px; width: 100%;">
+                     <div class="text-center white-text wow fadeIn" style="width: 100%;">
                         <h1 class="mb-2">
                            <strong>Anthony Blessing</strong>
                         </h1>
@@ -73,62 +73,56 @@
                         <p>
                            <a style="color: white;" href="https://github.com/antblessing" target="#_"><i class="fab fa-github-alt fa-2x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: white;" href="http://www.uschess.org/msa/MbrDtlMain.php?12910323" target="#_"><i class="fas fa-chess-king fa-2x"></i></a>
                         </p>
-                        <div class="btn-group" style="margin-top: 20px;"role="group" aria-label="Basic example">
-                           <button type="button" class="btn btn-light btn-sm waves-effect m-1"data-toggle="modal" data-target="#lessonModal">about me</button>
-                        </div>
                         <!-- Content -->
+                     </div>
+                     <div class="text-center white-text wow fadeIn" style="position: absolute; bottom: 7px; width: 100%;">
+                        <div class="btn-group" data-toggle="modal" data-target="#aboutModal"style="margin-top: 20px;"role="group" aria-label="Basic example">
+                          <span class="fa-stack" style="font-size: 1.5em;">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-chess fa-stack-1x fa-inverse" style="color: black"></i>
+                          </span>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
          <!-- Modal -->
-         <div class="modal fade" id="lessonModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-md modal-dialog-centered modal-dialog-scrollable text-center" role="document">
-               <div class="modal-content text-center">
-                  <div class="modal-header"style= "border-bottom: none;">
-                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div> 
-                  <div class="modal-body">
-                    <u><h4><strong>About me</strong></h4></u>
-                    &nbsp;
-                    &nbsp;
-                    &nbsp;
-                    <p class="grey-text">I am an experienced tournament chess player and teacher around the California Bay Area who has in recent years, grown to love programming as well.</p>
-                    <p class="grey-text">Currently, I reside near Roseville and am available for private lessons or simultaneous exhibitions in Placer County.</p>
-                    <p class="grey-text">Current USCF Rating: <strong>2115</strong></p>
-                    &nbsp;
-                    &nbsp;
-                    &nbsp;
-                   <u><h4><strong>Lessons</strong></h4></u>
-                    &nbsp;
-                    &nbsp;
-                    &nbsp;
-                    <h5 class="feature-title">Private Lessons (In person)</h5>
-                    <h5 class="feature-title"><strong>$60/hr</strong></h5>
-                    <p class="grey-text">All ages are welcome, and all materials required for lessons are provided.</p>
-                    &nbsp;
-                    &nbsp;
-                    &nbsp;
-                    <h5 class="feature-title">Simultaneous Exhibition</h5>
-                    <h5 class="feature-title"><strong>$100/hr</strong></h5>
-                    <p class="grey-text">A format of chess where I play against up to 25 players at once!</p>
-                    <p class="grey-text"><strong>Note:</strong> Boards and sets must be provided.</p>
-                    <p class="grey-text">To see an example of a simul, click <a target="_blank" href="https://www.youtube.com/watch?v=llo_Mr4kFxU">here</a> to see one with World Champion Magnus Carlsen.</p>
-                    &nbsp;
-                    &nbsp;
-                    &nbsp;
-                    <h5 class="feature-title">Private Lessons (Online)</h5>
-                    <h5 class="feature-title"><strong>$45/hr</strong></h5>
-                    <p class="grey-text">Similar to in person lessons, but through Skype, or over the phone. Will use a popular chess website for board analysis.</p>
-                  </div>
+        <!-- Full Height Modal Left -->
+        <div class="modal fade left" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-top-left modal-left modal-notify modal-info" role="document">
+          <div class="modal-content">
+           <!-- Card Wider -->
+            <div class="card card-cascade wider">
+
+               <!-- Card content -->
+               <div class="card-body card-body-cascade text-center">
+
+               <!-- Subtitle -->
+               <h5 class="text pb-2"><strong>Lessons</strong></h5>
+               <p class="card-text">I am an experienced tournament chess player with 80+ live tournaments and 5+ years of experience teaching.</p>
+               <p class="card-text"> Please reach out to me via email for any questions! <strong>antblessing@gmail.com</strong></p>
+
+               <h5 class="blue-text pb-2"><strong>Private (In person)</strong> <span class="black-text">- $60/hr</span></h5>
+               <!-- Text -->
+               <p class="card-text">All ages are welcome, and all materials required for lessons are provided.</p>
+
+               <h5 class="blue-text pb-2"><strong>Private (Online)</strong> <span class="black-text">- $40/hr</span></h5>
+               <!-- Text -->
+               <p class="card-text">Similar to in person lessons, but through Skype, or over the phone. Will use a popular chess website for board analysis.</p>
+
+               <h5 class="blue-text pb-2"><strong>Simultaneous Exhibition</strong> <span class="black-text">- $100/hr</span></h5>
+               <!-- Text -->
+               <p class="card-text">A format of chess where I play against up to 25 players at once! Note: Boards and sets must be provided.</p>
+               <p class="card-text">To see an example, watch <a target="_blank" href="https://www.youtube.com/watch?v=llo_Mr4kFxU">this</a> video to see World Champion Magnus Carlsen.</p>
                </div>
             </div>
-         </div>
+ <!-- Card Wider -->
+          </div>
+        </div>
+        </div>
+        <!-- Full Height Modal left -->
       </div>
       <!--Footer-->
       <footer class="page-footer text-center font-small mt-4 wow fadeIn">
